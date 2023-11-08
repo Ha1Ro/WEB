@@ -1,0 +1,145 @@
+/* Стилізація всього сайту */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+/* Стилізація заголовка */
+header {
+    background-color: #fff; 
+    color: #333; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+/* Стилізація навігації */
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+/* Стилізація основного вмісту */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Стилізація рекомендованих відео */
+.recommended-videos {
+    margin-bottom: 20px;
+}
+
+.recommended-videos h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Стилізація списку відео */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li img {
+    max-width: 100%;
+    height: auto;
+}
+
+li span {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Стилізація секції пошуку, каналів і музики */
+.search,
+.channels,
+.music {
+    margin-bottom: 20px;
+}
+
+.search h2,
+.channels h2,
+.music h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Стилізація вводу і кнопки пошуку */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Стилізація секції "Канали" */
+.channels ul,
+.music ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.channels li,
+.music li {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилізація зображень у списку каналів та музики (аналогічно відео) */
+.channels li img,
+.music li img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стилізація назви каналу і пісні */
+.channels li span,
+.music li span {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+}
